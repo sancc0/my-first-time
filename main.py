@@ -8,7 +8,8 @@ hobbies = list ()
 hobbies = ["Dormir", "Jugar", "Comer", "Comprar Ropa"]
 #hobbies[4] = "Gym"
 
-dato = input("ingrese un nuevo hobbie: ")
-hobbies.append(dato)
+#dato = input("ingrese un nuevo hobbie: ")
+#hobbies.append(dato)
 
+hobbies.pop()
 print(hobbies)
