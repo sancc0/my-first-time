@@ -1,15 +1,5 @@
-# VARIABLES
-name = "Ian Contreras"
-age = 16
-heigth = 1.68
-student = True
-# CONJUNTO DE DATOS
-hobbies = list ()
-hobbies = ["Dormir", "Jugar", "Comer", "Comprar Ropa"]
-#hobbies[4] = "Gym"
+from desing.menu import desing
 
-#dato = input("ingrese un nuevo hobbie: ")
-#hobbies.append(dato)
-
-hobbies.pop()
-print(hobbies)
+while True:
+    opc = desing()
+    if opc == 0 : break
